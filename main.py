@@ -23,6 +23,9 @@ import python3
 import minCost
 
 if __name__ == '__main__':
+    print ("L {:>20} R".format("x"))
+    print ("L {:*^20} R".format("x"))
+    print ("L {:<20} R".format("x"))
     # print ('hello world!')
     # heap.runHeapSort()
     # stack.runStackTest([1,2,3])
@@ -57,4 +60,4 @@ if __name__ == '__main__':
 
     # print ("hello world")
 
-    minCost.test_minCost()
+    # minCost.test_minCost()
